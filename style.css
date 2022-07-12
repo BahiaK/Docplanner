@@ -1,0 +1,295 @@
+
+body {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  
+        overflow: auto;
+        position: fixed;
+        top: 0px;
+        z-index: 3;
+        width: 100%;
+        height: 75px;
+        background: hsla(0, 0%, 100%, .98);
+        display: flex;
+        justify-content: space-around;
+
+
+    
+}
+.doclogo {
+    width: 268px;
+    height: 33px;
+    margin: 20px 10px;
+}
+img {
+    width: 100%;
+}
+.headerlink {
+    margin-top: 30px;
+    margin-right: 15%;
+    white-space: nowrap;
+
+}
+
+.navlink {
+    padding: 2%;
+}
+
+.navlink a {
+    color: #747474;
+    text-decoration: none;
+}
+
+.navlink a:hover {
+    color: #00b39b;
+    cursor: pointer;
+}
+
+#aboutuslink {
+    color: #00b39b;
+}
+.service-section,
+.statis-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.doc-logo {
+
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.slogan-text {
+    margin-top: 15px;
+    color: #00b39b;
+    font-size: 1.625em;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+.description-container {
+    width: 478px;
+    height: 112px;
+    line-height: 1.75;
+    margin: 25px;
+    white-space: normal;
+}
+
+.patient-div {
+    width: 478px;
+    height: 391px;
+    max-width: 478px;
+    max-height: 391px;
+    border-radius: 10px;
+    background-color: #00ccb1;
+    white-space: normal;
+    overflow: hidden;
+
+
+}
+
+.division-title {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.division-desc {
+    color: #fff;
+    font-size: 27px;
+    padding-left: 30px;
+
+}
+
+.country-selection {
+    margin: 3% 2% 0% 7%;
+    width: 80px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.country-selection select {
+    width: 175px;
+    height: 40px;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    text-transform: uppercase;
+    padding: 3% 2% 0% 10%;
+}
+
+
+
+
+#doctor-div {
+    background-color: #3d83df;
+    margin-left: 25px;
+    justify-content: space-between;
+
+ }
+ #clinique-div {
+    background-color: #3d83df;
+    margin-left: 25px;
+ }
+#service-div,
+#desc-div,
+#company-brands {
+    flex-direction: row;
+    justify-content: center;
+}
+
+#doctor-desc {
+    margin-bottom: 75px;
+}
+#clinique-desc
+{
+    margin-bottom: 75px;
+}
+
+#company-slogan {
+    width: 16%;
+    margin-left: 15%;
+
+}
+
+.brand-logo {
+    list-style: none;
+
+}
+
+.brand-logo li {
+    font-size: 16px;
+    display: inline-block;
+    width: 168px;
+    padding-right: 5px;
+}
+
+.brand-logo li:hover svg {
+    fill: #00b39b;
+}
+
+.brand-logo li svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-top: 10px;
+    fill: #747474;
+}
+.style-select {
+    position: relative;
+    display: inline-block;
+    background: none;
+    margin: 10% 0%;
+    padding: 0px 35px 0px 15px;
+    font-size: 150%;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+  }
+  #spec {
+    position: relative;
+    display: inline-block;
+    background: none;
+    margin: 10% 0%;
+    padding: 0px 35px 0px 15px;
+    font-size: 130%;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+  }
+  .statis-section {
+    background-color: #e5faf8;
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+
+#upstat-div {
+    margin-top: 50px;
+    width: 50%;
+    align-items: center;
+
+
+}
+
+#statis-slogan {
+    font-size: 2.2em;
+}
+
+.statis-desc {
+    font-size: .875em;
+    font-weight: 400;
+    /* line-height: 1.72; */
+    padding: 13px 129px;
+}
+
+.ddplogo-statis {
+    height: 382px;
+    width: 440px;
+    margin-top: 25px;
+}
+
+
+.box {
+    background-color: #fff;
+    width: 228px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.box img {
+    margin-top: 13%;
+    width: 40px;
+}
+
+.land-desc {
+    padding: 0%;
+    font-size: 13px;
+}
+
+.rd-title {
+    font-size: 20px;
+}
+
+.box-neighb {
+    margin-left: 25px;
+    margin-top: 15px;
+}
